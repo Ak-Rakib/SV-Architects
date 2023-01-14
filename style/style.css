@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
 }
 
-.header-title {
+.header-text-logo {
   padding-top: 15px;
   font-weight: 700;
   font-size: 25px;
@@ -37,4 +37,44 @@ a {
   padding-left: 30px;
   font-weight: 500;
   font-size: 18px;
+}
+
+/* another section under header */
+.header-details {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 44px;
+  padding-bottom: 10px;
+}
+
+.header-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.header-btn {
+  color: white;
+  background-color: #ff900e;
+  border: 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+/* another section under header */
+.header-img {
+    margin-bottom: 100px;
+}
+
+.header-banner-img {
+  width: 970px;
+  height: 450px;
 }
