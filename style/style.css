@@ -151,7 +151,7 @@ a {
 
 /* another section under main */
 .experience-parents {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .experience {
@@ -214,7 +214,55 @@ a {
 }
 
 .experience-year-sub-title {
-    color: white;
-    text-align: center;
-    padding-bottom: 25px;
+  color: white;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.experience-year:hover {
+  cursor: pointer;
+  background-color: #ff8801;
+}
+
+/* Facts section */
+.some-Fact {
+  margin-left: 150px;
+  margin-right: 600px;
+  margin-bottom: 50px;
+}
+
+.some-fact-title {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.some-fact-description {
+  color: #727272;
+}
+
+/* Happening work previous */
+.happening-previous-work-parents {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.happening-previous-work-details {
+  text-align: center;
+  border: 1px solid #ff900e;
+  padding: 20px;
+}
+
+.happening-previous-work-number {
+  color: #424242;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.happening-previous-work-message {
+  font-weight: 600;
+  font-size: 12px;
+  color: #727272;
 }
