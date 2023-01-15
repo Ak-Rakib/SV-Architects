@@ -152,7 +152,6 @@ a {
 /* another section under main */
 .experience-parents {
   margin-bottom: 200px;
-  display: none;
 }
 
 .experience {
@@ -255,6 +254,11 @@ a {
   text-align: center;
   border: 1px solid #ff900e;
   padding: 20px;
+}
+
+.happening-previous-work-details:hover {
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .happening-previous-work-number {
@@ -538,8 +542,8 @@ a {
     background-color: #ff900e;
     position: absolute;
     border-radius: 6px;
-    top: 2700px;
-    right: 24%;
+    top: 3600px;
+    right: 9%;
   }
 
   .experience-year-title {
@@ -592,6 +596,11 @@ a {
     text-align: center;
     border: 1px solid #ff900e;
     padding: 20px;
+  }
+
+  .happening-previous-work-details:hover {
+    border: 1px solid black;
+    cursor: pointer;
   }
 
   .happening-previous-work-number {
